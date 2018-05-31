@@ -192,6 +192,10 @@ a {
     float: right;
 }
 
+#bigger {
+    display: none;
+}
+
 #footer-wrapper {
     background-color: #AB987A;
     position: fixed;
@@ -250,6 +254,15 @@ footer {
     }
     body {
         padding-bottom: 0;
+    }
+    #in-line {
+        display: none;
+    }
+    #bigger {
+        display: block;
+        float: none;
+        margin: 0 auto;
+        overflow: auto;
     }
 }
 
