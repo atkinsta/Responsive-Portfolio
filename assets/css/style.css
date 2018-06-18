@@ -261,8 +261,6 @@ footer {
     #bigger {
         display: block;
         float: none;
-        margin: 0 auto;
-        overflow: auto;
     }
 }
 
